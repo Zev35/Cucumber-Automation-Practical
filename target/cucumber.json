@@ -1,0 +1,172 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3984313900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "1 User should be able to change the background color to skyblue",
+        "description": "",
+        "id": "sky-blue-background-functinality;1-user-should-be-able-to-change-the-background-color-to-skyblue",
+        "after": [
+          {
+            "result": {
+              "duration": 624710500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 157353200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "\"Set Skyblue Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set Skyblue Background",
+                  "offset": 1
+                }
+              ],
+              "location": "StepDefinition.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3086302200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the button as \"Set Skyblue Background\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set Skyblue Background",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.i_click_on_the_button_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3039296900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The background color will change to sky blue",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1691963300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "2 User should be able to change the background color to white",
+        "description": "",
+        "id": "sky-blue-background-functinality;2-user-should-be-able-to-change-the-background-color-to-white",
+        "after": [
+          {
+            "result": {
+              "duration": 16788404600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40622400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "\"Set SkyWhite Background\" button exists",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set SkyWhite Background",
+                  "offset": 1
+                }
+              ],
+              "location": "StepDefinition.button_exists(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3073462700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the button as \"Set White background\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Set White background",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefinition.i_click_on_the_button_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3047576400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The background color will change to white",
+            "match": {
+              "location": "StepDefinition.the_background_color_will_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sky Blue Background Functinality",
+    "description": "",
+    "id": "sky-blue-background-functinality",
+    "keyword": "Feature",
+    "uri": "./src/test/java/feature/SkyBlueElementPage.feature"
+  }
+]
